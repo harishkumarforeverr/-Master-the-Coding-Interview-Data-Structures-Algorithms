@@ -1,6 +1,5 @@
 ```javascript
-const mergeSortedArrays = (arr1, arr2) => {
-  let maxLength = Math.max(arr1.length, arr2.length);
+const mergeSortedArrays = (arr1, arr2) => { 
   let newarr=[...arr1,...arr2].sort((a,b)=>String(a)-String(b));
   return newarr;
 };
